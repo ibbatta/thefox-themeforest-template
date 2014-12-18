@@ -1,0 +1,104 @@
+/* ==========================================================================
+ * NAVIGATION
+ * ========================================================================== */
+
+.scroll-top {
+    display:block;
+}
+
+/*
+ * pagination
+ */
+.navbar-nav > li > a {
+    margin:0 0.5em;
+}
+
+
+.navbar-nav > li,
+.collapse.navbar-collapse .navbar-nav > li,
+.navbar-collapse.collapse.in .navbar-nav > li {
+    min-width:8%;
+}
+
+.navbar-nav > li.logo-container,
+.collapse.navbar-collapse .navbar-nav > li.logo-container,
+.navbar-collapse.collapse.in .navbar-nav > li.logo-container {
+    display:inline-block;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:active,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:active,
+.navbar-default .navbar-nav > .active > a:focus {
+    border-top:5px solid #1abc9c;
+    text-decoration:none;
+}
+
+
+
+/* ==========================================================================
+ * SECTION
+ * ========================================================================== */
+
+/*
+ * section header
+ */
+section.section-header hgroup > h1 {
+    line-height:20px;
+}
+
+
+
+/*
+ * section services
+ */
+.accordion-container {
+    float:right;
+    right:5em;
+    z-index:2;
+}
+
+
+
+/*
+ * section work
+ */
+.work-element > img {
+    width:100%;
+    height:auto;
+    min-height:100%;
+}
+
+.find-more > span {
+    font-size:24px;
+    line-height:20px;
+    padding:90px 0;
+}
+
+.work-detail-wrapper.col-lg-4 {
+    display: inline-block;
+    float: none;
+    max-width: 370px;
+    text-align: center;
+    width:33%;
+}
+
+
+.work-detail h1 {
+    line-height:40px;
+    text-align:left;
+    margin-top:0;
+}
+
+
+/*
+ * section plans
+ */
+.plan-item {
+    max-width:370px;
+    margin:10px 5px;
+}
+

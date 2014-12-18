@@ -1,0 +1,113 @@
+/* ==========================================================================
+ * SECTION
+ * ========================================================================== */
+
+header {
+     max-width:100%;
+}
+
+/*
+ * section header
+ */
+
+section.section-header > header {
+    width:auto;
+    padding:10em 0;
+}
+
+section.section-header header > h1 {
+    font-size:30px;
+}
+
+section.section-header header > h1 > span {
+    font-size:24px;
+}
+
+section.section-header header > h1 > strong {
+    text-indent:0;
+}
+
+section.section-header header > h2 {
+    visibility:visible;
+    font-size:16px;
+}
+
+
+/*
+ * section work
+ */
+.work-detail {
+    max-width:75%;
+}
+
+
+/*
+ * section slide
+ */
+.slide-container article > p {
+    max-width:90%;
+}
+
+
+/*
+ * section progress
+ */
+.progress-data {
+    max-width:1170px;
+    width:85%;
+}
+
+
+/*
+ * section plans
+ */
+.plan-item {
+    max-width:80%;
+}
+
+
+/*
+ * section featured
+ */
+.featured-slider article {
+    width:90%;
+}
+
+.featured-content {
+    max-width:100%;
+}
+
+.featured-content header > h1 {
+    text-align:center;
+}
+
+.featured-slider .owl-controls > .owl-pagination {
+    text-align:center;
+}
+
+.featured-slider .owl-controls > .owl-pagination > .owl-page {
+    margin:0 10px;
+}
+
+
+/*
+ * section facts
+ */
+.fact-cite .cite > h2, .fact-cite .cite > h3 {
+    width:90%;
+    max-width:1170px;
+}
+
+.fact-cite .cite > h2 > span.fa {
+    display:inline-block;
+}
+
+
+/*
+ * section hire
+ */
+form[role="form"] {
+    max-width:1170px;
+    width:90%;
+}
+
